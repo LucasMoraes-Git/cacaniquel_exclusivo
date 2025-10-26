@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: radial-gradient(circle at center, #2c003e, #000000);
+  color: #ffd700;
+  font-family: 'Orbitron', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: #1a001f;
+  padding: 30px;
+  border: 5px solid #ffd700;
+  border-radius: 15px;
+  box-shadow: 0 0 40px #ff004f;
+  text-align: center;
+  width: 90%;
+  max-width: 500px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #ffcc00;
+  text-shadow: 2px 2px #ff004f;
+}
+
+.saldo {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+.aposta {
+  margin: 15px 0;
+}
+
+.aposta input {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+  width: 60%;
+  text-align: center;
+}
+
+.slots {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.slot {
+  width: 60px;
+  height: 60px;
+  background: #000;
+  border: 3px solid #ffd700;
+  border-radius: 10px;
+  font-size: 2rem;
+  color: #00ffcc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.resultado {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  min-height: 30px;
+}
+
+button {
+  background: #ff004f;
+  color: white;
+  font-size: 1.2rem;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px #80002a;
+}
+
+button:hover {
+  background: #ff3366;
+  transform: scale(1.05);
+}
+
+button:active {
+  box-shadow: 0 2px #80002a;
+  transform: translateY(2px);
+}
+
+footer {
+  margin-top: 25px;
+  font-size: 0.8rem;
+  color: #ccc;
+}
+
+
